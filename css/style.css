@@ -1,0 +1,244 @@
+﻿/***** BEGIN RESET *****/
+/*--------import font------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;	
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table{border-collapse:collapse; width:100%;}
+td{vertical-align:top;}
+
+/* Make HTML 5 elements display block-level for consistent styling */  
+header, nav, article, footer, address {  
+    display: block;  
+} 
+
+/*-------- COLORS --------
+
+*/
+
+/***** END RESET *****/
+::-moz-selection {
+    background: #000; 
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #000;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+
+/*-------- BODY STYLES --------*/
+
+body {
+
+}
+
+
+
+/*--- HEADER STYLES ---------------------*/
+
+
+
+
+/*---BODY--------------------------------*/
+/*-------------Slideshow------------------*/
+.slideshow{max-width:100%; position:relative;}
+.slider-back{position:relative;}
+.slider-back img{height:100%; width:100%;z-index:-10;}
+
+.slide-caption{position:absolute; bottom:40%; left:15%;}
+.slide-caption h1{font-size:65px;text-transform:uppercase;font-weight:400;letter-spacing:4px;}
+.slide-caption p{font-size:19px;letter-spacing:1px;line-height:24px;font-weight:100;padding: 0 0 40px 0;}
+.slide-caption a{color:#fff; }
+
+.cycle-pager{position:absolute; color:#fff; bottom: 5px; margin: 0 auto; left:0px; right:0px; z-index:200; font-size:50px;width:120px;}
+.cycle-pager-active{color:#4b4b4b;}
+.cycle-pager:hover{cursor: pointer;}
+
+
+
+/*--------FORM STYLES--------------------*/
+.flex-form{width:100%; padding:40px; box-sizing:border-box; box-shadow:1px 1px 3px 2px rgba(0,0,0,.15);}
+#formpage {width:100%;vertical-align: top;display:inline-block;text-align:left;}
+#formpage label{font-size:18px; font-weight:500; padding:10px 0 5px 0;}
+#formpage input, select {padding:14px;border: 1px solid #ccc;color: #777!important;font-size: 14px;}
+.flex-row{display:flex;flex-direction:row;width:100%;}
+.form-half{width:calc(50% - 10px);display: inline-block;vertical-align: middle;margin:5px;}
+.form-whole{width:calc(100% - 10px);display:block;vertical-align:middle;margin:5px;}
+.form-third{width:calc(33.33% - 10px);display:block;vertical-align:middle;margin:5px;}
+input[type="text"], input[type="email"], input[type="date"], select, input[type="phone"]{width:100%;box-sizing:border-box;}
+
+#formpage textarea {font-family:'Arial', sans-serif; font-size:14px; box-sizing:border-box;padding: 14px;border: 1px solid #ccc!important;color: #000;background: #fff;width: 100%;height: 100px;border-radius:2px;}
+#formpage textarea:focus{border: 1px solid #ccc; border-radius:2px} 
+
+
+#formpage input.submit-button, #submit-btn button{width:180px; display:block;  padding:12px; height:42px; text-align:center; font-size:16px; margin:0 3px; box-sizing:border-box; color:#fff; background:var(--red); border-radius:25px; border:none;}
+
+#formpage input.submit-button:hover, #submit-btn button:hover{background:var(--tan); color:#000!important;}
+.submit-button, #submit-btn{padding:10px 0px 10px 0px;position:relative;width:100%;text-align:center;}
+.captcha-button{width:180px;}
+.include-captcha{display:none;}
+#formpage input.submit-button{color:#fff!important;}
+.CaptchaPanel{text-align:left!important;}
+
+
+/*-------- FOOTER STYLES ----------------*/
+
+
+
+
+/*----INVENTORY STYLES - KEEP AT BOTTOM OF CSS----*/
+.body-wrapper>div:not(.detail-wrapper) .list-main-section .list-container .list-listing .listing-top-right .buy-now-link,
+.body-wrapper>div:not(.detail-wrapper) .list-main-section .list-container .list-listing .listing-top-right .check-availability-link,
+.body-wrapper>div:not(.detail-wrapper) .list-main-section .list-container .list-listing .listing-top-right .email-seller-link,
+.body-wrapper>div:not(.detail-wrapper) .faceted-section-box .show-all-modal .show-all-modal-content-container .show-all-modal-content .title-close-row .apply-button,
+.body-wrapper>div:not(.detail-wrapper) .show-all-modal .show-all-modal-content-container .show-all-modal-content .title-close-row .apply-button,
+.body-wrapper>div:not(.detail-wrapper) button.page-nav {
+    background: #c61230 !important;
+    color: #000 !important;
+}
+
+.body-wrapper>div:not(.detail-wrapper) .view-listing-details-link,
+.body-wrapper>div:not(.detail-wrapper) .contact-options a,
+.body-wrapper>div:not(.detail-wrapper) .fin-calc-mobile>a,
+.body-wrapper>div:not(.detail-wrapper) button.g-recaptcha.button,
+.body-wrapper>div:not(.detail-wrapper) .show-all-modal .apply-button,
+.body-wrapper>div:not(.detail-wrapper) .show-all-modal .nuf-button,
+.body-wrapper>div:not(.detail-wrapper) .list-error-container .info button,
+.body-wrapper>div:not(.detail-wrapper) .mobile-done-button-container .mobile-done-button,
+.body-wrapper>div:not(.detail-wrapper) a.buy-btn.gtm-buynow.des-buy-now,
+.body-wrapper>div:not(.detail-wrapper) a.buy-btn.des-buy-now,
+.body-wrapper>div:not(.detail-wrapper) button.selected-facet.ts-button,
+.body-wrapper>div:not(.detail-wrapper) .detail-contact-bar .contact-bar-btn {
+    background: #c61230 !important;
+    color: #fff !important;
+}
+
+.body-wrapper>div:not(.detail-wrapper) .view-listing-details-link:hover,
+.body-wrapper>div:not(.detail-wrapper) .contact-options a:hover,
+.body-wrapper>div:not(.detail-wrapper) .fin-calc-mobile>a:hover,
+.body-wrapper>div:not(.detail-wrapper) button.g-recaptcha.button:hover,
+.body-wrapper>div:not(.detail-wrapper) .email-seller-link:hover,
+.body-wrapper>div:not(.detail-wrapper) .mc-nav-controls .mc-icon-navarrow span,
+.body-wrapper>div:not(.detail-wrapper) a.buy-btn.gtm-buynow.des-buy-now:hover,
+.body-wrapper>div:not(.detail-wrapper) a.buy-btn.des-buy-now:hover,
+.body-wrapper>div:not(.detail-wrapper) .detail-contact-bar .contact-bar-btn:hover {
+    background: #014f30 !important;
+    color: #fff !important;
+    /*----Border----*/
+}
+
+.body-wrapper>div:not(.detail-wrapper) .faceted-section-box .show-all-modal .show-all-modal-content-container .show-all-modal-content .title-close-row .back-button,
+.body-wrapper>div:not(.detail-wrapper) .show-all-modal .show-all-modal-content-container .show-all-modal-content .title-close-row .back-button,
+.body-wrapper>div:not(.detail-wrapper) .show-all-modal .back-button,
+.body-wrapper>div:not(.detail-wrapper) .parts-listing-container .mobile-parts-detail-container .dealer-phone-container a {
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    /*-----------------------OTHER TEXT STYLES-----------------------*/
+    /*----Page Title----*/
+}
+
+.body-wrapper>div:not(.detail-wrapper) .list-title .list-title-text,
+.body-wrapper>div:not(.detail-wrapper) .parts-top-section .parts-title-and-breadcrumbs .parts-title .parts-title-text span,
+.body-wrapper>div:not(.detail-wrapper) .title-media-buttons-heading h1 {
+    color: #000 !important;
+    line-height: 28px !important;
+}
+
+.body-wrapper>div:not(.detail-wrapper) .list-main-section .list-container .list-listing .listing-top-right .listing-dealer-info .dealer-name,
+.body-wrapper>div:not(.detail-wrapper) .list-main-section .list-container .fin-calc,
+.body-wrapper>div:not(.detail-wrapper) .list-listing-mobile .listing-dealer-info .spec-value,
+.body-wrapper>div:not(.detail-wrapper) .fin-calc,
+.body-wrapper>div:not(.detail-wrapper) .fin-calc p,
+.body-wrapper>div:not(.detail-wrapper) .list-main-section .list-container .list-error .info,
+.body-wrapper>div:not(.detail-wrapper) .parts-bottom-section .parts-list-view .parts-list-content .error-message,
+.body-wrapper>div:not(.detail-wrapper) .info,
+.body-wrapper>div:not(.detail-wrapper) .list-title .list-listings-count,
+.body-wrapper>div:not(.detail-wrapper) .parts-top-section .parts-title-and-breadcrumbs .parts-title .parts-listings-count,
+.body-wrapper>div:not(.detail-wrapper) .list-top-section .listing-option-bar .list-listings-count,
+.body-wrapper>div:not(.detail-wrapper) span.part-list-price.bold,
+.body-wrapper>div:not(.detail-wrapper) .dealer-company-header,
+.body-wrapper>div:not(.detail-wrapper) .dealer-info h3,
+.body-wrapper>div:not(.detail-wrapper) .listing-description-text,
+.body-wrapper>div:not(.detail-wrapper) .paging-container .list-page-number,
+.body-wrapper>div:not(.detail-wrapper) .paging-container .page-number,
+.body-wrapper>div:not(.detail-wrapper) .listing-main-stats .price,
+.body-wrapper>div:not(.detail-wrapper) .list-container-flexrow .price-container .price,
+.body-wrapper>div:not(.detail-wrapper) h2.listing-portion-title,
+.body-wrapper>div:not(.detail-wrapper) .list-listing-mobile .price-container .price,
+.body-wrapper>div:not(.detail-wrapper) .compare-listings-container .compare-container .comp-header-img .comp-title-close-cont .compare-title,
+.body-wrapper>div:not(.detail-wrapper) .compare-listings-container .compare-container .compare-price,
+.body-wrapper>div:not(.detail-wrapper) .rent-title,
+.body-wrapper>div:not(.detail-wrapper) .rent-title-details,
+.body-wrapper>div:not(.detail-wrapper) span.list-title-text,
+.body-wrapper>div:not(.detail-wrapper) a.search-results-link,
+.body-wrapper>div:not(.detail-wrapper) h3.listing-portion-title {
+    color: #000 !important;
+}
+
+.body-wrapper>div:not(.detail-wrapper) .mobile-option-bar .mobile-option-bar-filter,
+.body-wrapper>div:not(.detail-wrapper) span.listing-prices__retail-price,
+.body-wrapper>div:not(.detail-wrapper) span.parts-listings-count {
+    color: #000 !important;
+    /*-----------------------MEDIA QUERIES-----------------------*/
+}
+
+
+
+
+
+
+/*---------- RESPONSIVE STYLES ----------*/
+
+
+@media only screen and (max-width: 1250px) {
+
+}
+@media only screen and (max-width: 1000px) {	
+	
+}
+
+@media only screen and (max-width: 650px) {	
+	
+}
+
+@media only screen and (max-width: 380px) {
+	
+	
+}
+
+
+
+
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>https://www.eccoequipment.com/</loc> 
+		<lastmod>2024-09-10</lastmod> 
+		<changefreq>daily</changefreq> 
+		<priority>1.0</priority> 
+	</url>
+	
+	<url>
+		<loc>https://www.eccoequipment.com/default.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>0.95</priority>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/inventory/?/listings/for-sale/construction-equipment/4?accountcrmid=36306&amp;settingscrmid=36306&amp;dlr=1</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/inventory/?/listings/for-sale/construction-attachments/81?accountcrmid=36306&amp;settingscrmid=36306&amp;dlr=1</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/rental.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/request.htm</loc>
+		<lastmod>2020-06-24</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/resources.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/contact.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/about.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/testimonials.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/news.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/contact.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/careers.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	
+	<url>	
+		<loc>https://www.eccoequipment.com/archives.htm</loc>
+		<lastmod>2024-09-10</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+
+</urlset>

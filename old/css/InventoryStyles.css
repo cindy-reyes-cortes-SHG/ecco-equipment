@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------ General Listings Page---------------------------------*/
+
+/*----Page Background Color----*/
+.body-content .body-wrapper {background:#fff !important;}
+
+/*----Page Sizing----*/
+.list-content{max-width: 100% !important; margin:0 !important;}
+
+/*----Listing Background Color & Text Color Change----*/
+.list-container .list-listing {background:#fff !important;}
+
+/*---Sidebar Background Color & Text Color----*/
+.list-content .section-box {background:#fff !important;}
+
+/*----Filter button color change------*/
+.current-facet {background:#000 !important;}
+
+/*----View Details Button----*/
+.view-listing-details-link {background:#f8eb13 !important; color: #000 !important;}
+.view-listing-details-link:hover {background:#000 !important; color: #fff !important;}
+
+/*---Page Title----*/
+.list-content .list-title .list-title-text {color:#000 !important; font-size:22px !important; line-height: 28px !important; }
+
+/*----Listings # showing text----*/
+.list-content .list-title .list-listings-count {}
+
+/*---Description text color (if different than body text color)----*/
+.listing-description-text {color:#000;}
+
+/*----Price----*/
+.listing-main-stats .price {color:#000 !important;}
+
+/*------- Faceted Search------*/
+.faceted-search-content .selected-facets-container .selected-facet{background: #f8eb13 !important; color:#000 !important;}
+
+/*------- Site Specific Search------*/ 
+.detail-content .detail-main-body .main-detail-data .details-fin-cal{
+	display: block !important;
+	box-sizing: border-box !important;
+}
+.detail-content .detail-main-body .main-detail-data .details-fin-calc .detail-btn-calc{
+	width:100% !important;
+}
+button#faceted-search{float:none; margin: 0;}
+
+/*------------------------------Listings Details Page---------------------------------*/
