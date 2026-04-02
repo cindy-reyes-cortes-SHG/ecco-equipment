@@ -4,51 +4,51 @@
 
 	<url>
 		<loc>http://www.eccoequipment.com/</loc> 
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>daily</changefreq> 
 		<priority>1.0</priority> 
 	</url>
 	
 	<url>
 		<loc>http://www.eccoequipment.com/default.htm</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>daily</changefreq>
 		<priority>0.95</priority>
 	</url>
 
 	<url>
 		<loc>http://www.eccoequipment.com/about.htm</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>monthly</changefreq>
 	</url>
 
 	<url>
 		<loc>http://www.eccoequipment.com/contact.htm</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>monthly</changefreq>
 	</url>
 
 	<url>
 		<loc>http://www.eccoequipment.com/get-a-quote.htm</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>monthly</changefreq>
 	</url>
 
 	<url>
 		<loc>http://www.eccoequipment.com/locations.htm</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>monthly</changefreq>
 	</url>
 
 	<url>
 		<loc>http://www.eccoequipment.com/rental-quote.htm</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>monthly</changefreq>
 	</url>
 
 	<url>
 		<loc>http://www.eccoequipment.com/thankyou.htm</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>monthly</changefreq>
 		<priority>0</priority>
 	</url>
@@ -56,126 +56,126 @@
 <!-- Rentals -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-rent/equipment/all?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Loaders -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-rent/wheel-loaders/1060?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Dozers -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-rent/dozers/1025?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Excavators -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-rent/excavators/1031?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Motor Graders -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-rent/motor-graders/1048?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Compactors -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-rent/compactors/1008?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Water Equipment -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-rent/water-equipment/1059?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Off-Highway Trucks -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-rent/off-highway-trucks/1049?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Scrapers -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-rent/scrapers/1054?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Sales -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-sale/equipment/all?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Loaders -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-sale/wheel-loaders/1060?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Dozers -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-sale/dozers/1025?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Excavators -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-sale/excavators/1031?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Motor Graders -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-sale/motor-graders/1048?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Compactors -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-sale/compactors/1008?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Water Equipment -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-sale/water-equipment/1059?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Off-Highway Trucks -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-sale/off-highway-trucks/1049?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 
 <!-- Scrapers -->
 	<url>
 		<loc>http://www.eccoequipment.com/inventory/?/listings/for-sale/scrapers/1054?DSCompanyID=1118&amp;SettingsCRMID=36306</loc>
-		<lastmod>2026-03-31</lastmod> 
+		<lastmod>2026-04-02</lastmod> 
 		<changefreq>weekly</changefreq>
 	</url>
 

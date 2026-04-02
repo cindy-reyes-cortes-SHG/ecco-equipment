@@ -55,31 +55,45 @@
 	
     <!--MENU LIST ITEMS-->
     <!--NAVIGATION ICONS USE FONTAWESOME WEBFONT-->
-    <ul>
-    	<li><a href="/">Home</a></li>
-        <li>
-            <a class="click">Sales</a>
-            
-            <ul class="drop-list">
-                <li><a href="/">Attachments</a></li>
-				<li><a href="/">Equipment</a></li>
-				<li><a href="/">Com</a></li>
-				<li><a href="/">Construction</a></li>
-                <li><a href="/">Commercial Truck</a></li>
-				<li><a href="/">Commercial Trailer</a></li>
-				<li><a href="/">Powersports</a></li>
-            </ul>
-        </li>
-		<li><a href="/" >Financing</a></li>
-        <li><a href="/" >Contact</a></li>
-		<li><a href="/" >Companies</a></li>
+	<ul>
+		<li><a href="/default.htm">Home</a></li>
+		<li>
+			<a class="click">Rentals<i class="fa-solid fa-angle-down"></i></a>
+			
+			<ul class="drop-list">
+				<li><a href="/siteart/RentalLineCard2023.pdf" target="_blank">View All Rentals</a></li>
+			</ul>
+		</li>
+		<li>
+			<a class="click">Sales<i class="fa-solid fa-angle-down"></i></a>
+			
+			<ul class="drop-list">
+				<li><a href="/inventory/?/listings/for-sale/wheel-loaders/1060?DSCompanyID=1118&SettingsCRMID=36306">Loaders</a></li>
+				<li><a href="/inventory/?/listings/for-sale/dozers/1025?DSCompanyID=1118&SettingsCRMID=36306">Dozers</a></li>
+				<li><a href="/inventory/?/listings/for-sale/excavators/1031?DSCompanyID=1118&SettingsCRMID=36306">Excavators</a></li>
+				<li><a href="/inventory/?/listings/for-sale/motor-graders/1048?DSCompanyID=1118&SettingsCRMID=36306">Motor Graders</a></li>
+				<li><a href="/inventory/?/listings/for-sale/compactors/1008?DSCompanyID=1118&SettingsCRMID=36306">Compactors</a></li>
+				<li><a href="/inventory/?/listings/for-sale/water-equipment/1059?DSCompanyID=1118&SettingsCRMID=36306">Water Equipment</a></li>
+				<li><a href="/inventory/?/listings/for-sale/off-highway-trucks/1049?DSCompanyID=1118&SettingsCRMID=36306">Off-Highway Trucks</a></li>
+				<li><a href="/inventory/?/listings/for-sale/scrapers/1054?DSCompanyID=1118&SettingsCRMID=36306">Scrapers</a></li>
+				<li><a href="/inventory/?/listings/for-sale/equipment/all?DSCompanyID=1118&SettingsCRMID=36306">View All Sales</a></li>
+			</ul>
+		</li>
+		<li><a href="/get-a-quote.htm">Request a Quote</a></li>
+		<li><a href="/rental-quote.htm">Rental Request</a></li>
+		<li><a href="/locations.htm">Locations</a></li>
+		<li><a href="/about.htm">About</a></li>
+		<li><a href="https://app.gocurrency.com/?vendorID=100339&utm_source=www.www.eccoequipment.com" target="_blank">Financing</a></li>
+		<li><a href="/contact.htm">Contact</a></li>
 	</ul>
         
 	<div class="clear"></div>
    
 	</nav>
 	<div class="search">
-		<i class="fa fa-search"></i>
+		<a href="javascript:showHide('search');" aria-label="Search"><i class="fa fa-search"></i></a>
+		<!-- #include virtual="search.htm"-->
+		
 	</div>
 	<a href="tel:8004903226" class="call">
 		<i class="fa fa-phone"></i>

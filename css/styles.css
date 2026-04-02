@@ -296,6 +296,102 @@ nav {
   color: #333;
 }
 
+/* Search Bar Nav */
+
+
+#search {
+	top: 52px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	z-index: 999999999999;
+	  position: absolute;
+	display: flex;
+	  align-items: center;
+	  justify-content: center;
+	height: 86px;
+
+  }
+  
+  form.search-header {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+  }
+  
+  .search-bg {
+	-webkit-animation: slide-down .3s ease-out;
+	-moz-animation: slide-down .3s ease-out;
+  }
+  .search-btn {
+	border: none !important;
+	background: transparent !important;
+
+    i{
+        color: var(--white);
+    }
+
+  }
+  .search-btn img {
+	width: 35px !important;
+  }
+
+  #search-header input {
+	caret-color: #000;
+  }
+  .searchTerm::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: var(--white);
+	opacity: 1; /* Firefox */
+  }
+  .searchTerm:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #000;
+  }
+  .searchTerm::-ms-input-placeholder { /* Microsoft Edge */
+	color: #000;
+  }
+  .search-wrap {
+	  margin: 0 auto;
+	width: 97%;
+  }
+
+  .search-header input[type="text"]:not([class^="Mui"]) {
+	width: 90% !important;
+	border: none !important;
+	font-size: 14px !important;
+	color: black !important;
+	font-family: "Poppins", sans-serif !important;
+	font-weight: 400 !important;
+	  -webkit-user-select: initial;
+	  -khtml-user-select: initial;
+	  -moz-user-select: initial;
+	  -ms-user-select: initial;
+	  user-select: initial;
+	  height: auto !important;
+	  line-height: 70px !important;
+	  background: var(--red);
+  }
+
+   .search-header input[type="text"]{
+    color: var(--white) !important;
+  }
+  .search-nav {
+	opacity: .7;
+	transition: ease all 0.2s !important;
+  }
+  .search-nav:hover {
+	opacity: 1;
+  }
+  
+  .search-header input:focus {
+	  outline: none;
+      color: var(--white);
+  }
+
+
+
+
+
 /*--------Hero---------*/
 /*-------------Slideshow------------------*/
 .slideshow {
@@ -317,6 +413,7 @@ nav {
 .slide-caption {
   position: absolute;
   bottom: 30%;
+  top: 15%;
   left: 0px;
   right: 0px;
   margin: 0 auto;
@@ -372,7 +469,12 @@ nav {
 
 
 
+
 /*----------Search--------------*/
+
+.search a{
+  color: #000;
+}
 
 .slide-search {
   width: 80%;
@@ -1529,8 +1631,7 @@ footer {
 .hero{
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/siteart/hero.jpg);
   background-size: cover;
-  background-size: cover;
-
+  background-repeat: no-repeat;
 }
 
 .location-container{
