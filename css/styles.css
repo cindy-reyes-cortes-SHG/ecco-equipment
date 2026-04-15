@@ -778,7 +778,6 @@ nav {
   border-left: solid 2px #f2f2f2;
   border-right: solid 2px #f2f2f2;
   justify-content: space-between;
-  background: linear-gradient(to bottom, #f5f5f5, #ccc);
   font-family: "Poppins", sans-serif;
 }
 .accordion i {
