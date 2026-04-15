@@ -135,6 +135,8 @@ header, nav, article, footer, address {
   background-size: cover;
   background-position: center;
   width: 100%;
+    padding: clamp(25px, 3vw, 60px) 20px;
+
 }
 
 .black-bg {
@@ -145,7 +147,7 @@ header, nav, article, footer, address {
   color: #fff;
   position: relative;
   overflow: hidden;
-      padding: clamp(25px, 3vw, 60px) 20px;
+  padding: clamp(25px, 3vw, 60px) 20px;
 
   &::before {
     content: "";
@@ -667,6 +669,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
   gap: 40px;
   flex-wrap: wrap;
 }
@@ -682,9 +685,8 @@ nav {
 }
 .about-boxes .box {
   width: calc(50% - 20px);
-  background: #f2f2f2;
   text-align: center;
-  padding: 15px;
+  padding:  25px 15px;
   box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.2);
 }
 .about-boxes .box i {
@@ -696,7 +698,7 @@ nav {
 .about-boxes .box h3 {
   font-family: "Anton", sans-serif;
   text-transform: uppercase;
-  font-size: clamp(18px, 2.5vw, 20px);
+  font-size: clamp(18px, 2.5vw, 18px);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -710,12 +712,6 @@ nav {
   color: #333;
   font-family: "Poppins", sans-serif;
   color: #333;
-}
-.about-boxes .box:first-of-type {
-  margin-top: -25px;
-}
-.about-boxes .box:last-of-type {
-  margin-bottom: -25px;
 }
 
 .about-text {
@@ -764,6 +760,26 @@ nav {
 }
 .about-text ul li i {
   padding-right: 8px;
+}
+
+.service-box{
+  background: url(/siteart/services-thumbnail.jpg);
+}
+
+.excavator-box{
+    background: url(/siteart/machine-thumbnail.jpg);
+}
+
+.excavator-box{
+    background: url(/siteart/machine-thumbnail.jpg);
+}
+
+.plus-box{
+    background: url(/siteart/rentals-thumbnail.jpg);
+}
+
+.shield-box{
+    background: url(/siteart/used-thumbnail.jpg);
 }
 
 /*---FAQ and Search----*/
