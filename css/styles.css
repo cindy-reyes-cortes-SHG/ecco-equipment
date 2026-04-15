@@ -137,6 +137,37 @@ header, nav, article, footer, address {
   width: 100%;
 }
 
+.black-bg {
+  background-image: url("/siteart/excavator-bucket.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+      padding: clamp(25px, 3vw, 60px) 20px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  h2{
+    color: #F8EB13 !important;
+  }
+}
+
 .center-text {
   text-align: center;
 }
