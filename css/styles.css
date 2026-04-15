@@ -764,22 +764,32 @@ nav {
 
 .service-box{
   background: url(/siteart/services-thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .excavator-box{
     background: url(/siteart/machine-thumbnail.jpg);
-}
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
 
 .excavator-box{
     background: url(/siteart/machine-thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .plus-box{
     background: url(/siteart/rentals-thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .shield-box{
     background: url(/siteart/used-thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*---FAQ and Search----*/
